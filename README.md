@@ -62,7 +62,6 @@ sms-spam-classifier/
 │   ├── pr_curves.png
 │   └── radar_chart.png
 ├── dashboard/
-│   ├── spam_dashboard.jsx            # React dashboard component
 │   └── spam_dashboard.html           # Standalone HTML dashboard
 └── README.md
 ```
