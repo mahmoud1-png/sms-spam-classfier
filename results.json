@@ -1,0 +1,5022 @@
+{
+  "tested_at": "2026-06-11T23:42:32.901616",
+  "api_url": "demo",
+  "threshold": 0.35,
+  "seed": 42,
+  "total": 500,
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "true_positives": 81,
+    "true_negatives": 419,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "total": 500,
+    "spam_total": 81,
+    "ham_total": 419
+  },
+  "results": [
+    {
+      "index": 0,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.188,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 1,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1868,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 2,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1409,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 3,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0172,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 4,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1545,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 5,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.166,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 6,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1178,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 7,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0116,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 8,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1114,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 9,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2397,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 10,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1012,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 11,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1549,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 12,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1203,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 13,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8408,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 14,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1609,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 15,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1486,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 16,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1687,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 17,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2153,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 18,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0767,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 19,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.049,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 20,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0741,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 21,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0271,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 22,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.185,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 23,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0748,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 24,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1437,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 25,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1944,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 26,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7577,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 27,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0259,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 28,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2203,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 29,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1298,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 30,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1201,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 31,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1888,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 32,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1503,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 33,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0969,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 34,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1323,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 35,
+      "text": "We noticed a problem processing your recent request. Review details here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9567,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 36,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2001,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 37,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1023,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 38,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.137,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 39,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2362,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 40,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1736,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 41,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1945,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 42,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1143,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 43,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2202,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 44,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1929,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 45,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2189,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 46,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1318,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 47,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.193,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 48,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2314,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 49,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0878,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 50,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8371,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 51,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0838,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 52,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8862,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 53,
+      "text": "Your request has been pre-approved based on recent activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8666,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 54,
+      "text": "A limited allocation remains available for confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8778,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 55,
+      "text": "An opportunity has been reserved under your name.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8641,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 56,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1366,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 57,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2329,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 58,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0583,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 59,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.166,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 60,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1184,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 61,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0911,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 62,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1512,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 63,
+      "text": "Your request has been pre-approved based on recent activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9015,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 64,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0175,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 65,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0671,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 66,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1394,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 67,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1471,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 68,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1235,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 69,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0333,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 70,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1087,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 71,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1716,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 72,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0245,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 73,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2168,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 74,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1387,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 75,
+      "text": "A pending transaction needs confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8169,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 76,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0281,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 77,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1421,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 78,
+      "text": "Your recent submission qualifies for further consideration.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9506,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 79,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1909,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 80,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1266,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 81,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2266,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 82,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2465,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 83,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1984,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 84,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2398,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 85,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1688,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 86,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0812,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 87,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1866,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 88,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7637,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 89,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2307,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 90,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2406,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 91,
+      "text": "A pending transaction needs confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7664,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 92,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8064,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 93,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8867,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 94,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1587,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 95,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1457,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 96,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.059,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 97,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0737,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 98,
+      "text": "An opportunity has been reserved under your name.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.822,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 99,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2346,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 100,
+      "text": "Review the attached information before the deadline passes.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9896,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 101,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.139,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 102,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.234,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 103,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0686,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 104,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2101,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 105,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2461,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 106,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0119,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 107,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2336,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 108,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7822,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 109,
+      "text": "Your profile requires attention before services can continue.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9282,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 110,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1552,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 111,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.175,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 112,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1272,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 113,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0222,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 114,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0764,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 115,
+      "text": "A limited allocation remains available for confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7814,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 116,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1879,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 117,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1446,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 118,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9158,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 119,
+      "text": "We noticed a problem processing your recent request. Review details here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9503,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 120,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1131,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 121,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9658,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 122,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0196,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 123,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0699,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 124,
+      "text": "A limited allocation remains available for confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8844,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 125,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1899,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 126,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2175,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 127,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0525,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 128,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1868,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 129,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1088,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 130,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2046,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 131,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1783,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 132,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2161,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 133,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2304,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 134,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2009,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 135,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1684,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 136,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2174,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 137,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0943,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 138,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2455,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 139,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0377,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 140,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1493,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 141,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.036,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 142,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1987,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 143,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0378,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 144,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0711,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 145,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1348,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 146,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1827,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 147,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0573,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 148,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.231,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 149,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2135,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 150,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1317,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 151,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1066,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 152,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.056,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 153,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1726,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 154,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1466,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 155,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0101,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 156,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1986,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 157,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1216,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 158,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 159,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1866,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 160,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1337,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 161,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0324,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 162,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1715,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 163,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0454,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 164,
+      "text": "We attempted to contact you concerning an important update.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8967,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 165,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1095,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 166,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1824,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 167,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0686,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 168,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2242,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 169,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0356,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 170,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.203,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 171,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0221,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 172,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0391,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 173,
+      "text": "We attempted to contact you concerning an important update.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9102,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 174,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0862,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 175,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.157,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 176,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1124,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 177,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2253,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 178,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.118,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 179,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.163,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 180,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1263,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 181,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0286,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 182,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0906,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 183,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0432,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 184,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0467,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 185,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1078,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 186,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0249,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 187,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2272,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 188,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0147,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 189,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1013,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 190,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8217,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 191,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2388,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 192,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1863,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 193,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0629,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 194,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1266,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 195,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.173,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 196,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2117,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 197,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1382,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 198,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1455,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 199,
+      "text": "An opportunity has been reserved under your name.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8529,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 200,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0221,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 201,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1191,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 202,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.101,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 203,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1112,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 204,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0147,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 205,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0638,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 206,
+      "text": "An opportunity has been reserved under your name.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7597,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 207,
+      "text": "Action may be required to prevent interruption of service.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7978,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 208,
+      "text": "A pending transaction needs confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8073,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 209,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1454,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 210,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0715,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 211,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1557,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 212,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1967,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 213,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0359,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 214,
+      "text": "You have an unread secure document awaiting review.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8882,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 215,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1052,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 216,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1521,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 217,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0345,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 218,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1742,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 219,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2461,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 220,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1379,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 221,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1314,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 222,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1108,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 223,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2406,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 224,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1203,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 225,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1861,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 226,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1578,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 227,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.126,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 228,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1522,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 229,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2094,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 230,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8582,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 231,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1565,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 232,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1286,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 233,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0609,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 234,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0771,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 235,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0763,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 236,
+      "text": "Action may be required to prevent interruption of service.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7705,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 237,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1432,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 238,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 239,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0141,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 240,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.176,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 241,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0986,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 242,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1121,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 243,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0944,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 244,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0703,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 245,
+      "text": "Action may be required to prevent interruption of service.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8257,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 246,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1756,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 247,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1262,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 248,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1359,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 249,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2098,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 250,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0531,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 251,
+      "text": "Your recent submission qualifies for further consideration.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7804,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 252,
+      "text": "We noticed a problem processing your recent request. Review details here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8828,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 253,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1631,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 254,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2195,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 255,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1249,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 256,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0706,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 257,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2073,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 258,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1485,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 259,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0458,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 260,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0304,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 261,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1935,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 262,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1584,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 263,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1181,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 264,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1512,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 265,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.159,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 266,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0338,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 267,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0606,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 268,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0676,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 269,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0106,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 270,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1228,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 271,
+      "text": "You have an unread secure document awaiting review.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9197,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 272,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0271,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 273,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1991,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 274,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2029,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 275,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1407,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 276,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0738,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 277,
+      "text": "We noticed a problem processing your recent request. Review details here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7898,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 278,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2078,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 279,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0398,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 280,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1066,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 281,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1285,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 282,
+      "text": "We noticed a problem processing your recent request. Review details here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9635,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 283,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0701,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 284,
+      "text": "An opportunity has been reserved under your name.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9506,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 285,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2499,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 286,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1483,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 287,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1229,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 288,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0768,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 289,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1623,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 290,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1228,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 291,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1708,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 292,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1088,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 293,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2368,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 294,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0188,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 295,
+      "text": "You have an unread secure document awaiting review.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8276,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 296,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2176,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 297,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1678,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 298,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.023,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 299,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1915,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 300,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0224,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 301,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2326,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 302,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1263,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 303,
+      "text": "An opportunity has been reserved under your name.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8961,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 304,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0846,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 305,
+      "text": "A response is needed regarding your account activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7724,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 306,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0372,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 307,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2097,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 308,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.08,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 309,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2103,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 310,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1196,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 311,
+      "text": "Action may be required to prevent interruption of service.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9712,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 312,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0428,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 313,
+      "text": "A limited allocation remains available for confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 314,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1991,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 315,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0779,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 316,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1492,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 317,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0457,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 318,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0898,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 319,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1193,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 320,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2454,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 321,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0661,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 322,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0864,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 323,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2047,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 324,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2002,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 325,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1289,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 326,
+      "text": "Your recent submission qualifies for further consideration.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9817,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 327,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2198,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 328,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2285,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 329,
+      "text": "A pending transaction needs confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8484,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 330,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.028,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 331,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0913,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 332,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0293,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 333,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2162,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 334,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1604,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 335,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2194,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 336,
+      "text": "Your profile requires attention before services can continue.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8063,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 337,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2494,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 338,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2448,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 339,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2194,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 340,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0819,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 341,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9411,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 342,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1134,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 343,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1458,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 344,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.052,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 345,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1587,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 346,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.15,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 347,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.071,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 348,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2257,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 349,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1726,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 350,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2369,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 351,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1633,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 352,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1196,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 353,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2148,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 354,
+      "text": "A response is needed regarding your account activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8873,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 355,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0809,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 356,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.105,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 357,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9146,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 358,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2285,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 359,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.227,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 360,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0652,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 361,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1628,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 362,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1913,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 363,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2112,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 364,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1606,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 365,
+      "text": "A limited allocation remains available for confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8558,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 366,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0415,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 367,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1894,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 368,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1988,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 369,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1374,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 370,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0495,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 371,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2422,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 372,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0913,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 373,
+      "text": "Your profile requires attention before services can continue.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7838,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 374,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1723,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 375,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2421,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 376,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0317,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 377,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1388,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 378,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1898,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 379,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2074,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 380,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.172,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 381,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2222,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 382,
+      "text": "The university has approved your scholarship application.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1564,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 383,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2077,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 384,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1658,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 385,
+      "text": "We noticed a problem processing your recent request. Review details here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9771,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 386,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0379,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 387,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0426,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 388,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2379,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 389,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1106,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 390,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2225,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 391,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1274,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 392,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0179,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 393,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1167,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 394,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0338,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 395,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2264,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 396,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1056,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 397,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2378,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 398,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1691,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 399,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2431,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 400,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8085,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 401,
+      "text": "Review the attached information before the deadline passes.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7992,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 402,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0597,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 403,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0659,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 404,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2261,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 405,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9862,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 406,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0702,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 407,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2179,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 408,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 409,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0138,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 410,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.188,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 411,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0253,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 412,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1332,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 413,
+      "text": "Your recent submission qualifies for further consideration.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8032,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 414,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.198,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 415,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0824,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 416,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0246,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 417,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1123,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 418,
+      "text": "Your request has been pre-approved based on recent activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9683,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 419,
+      "text": "Your profile requires attention before services can continue.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8273,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 420,
+      "text": "A pending transaction needs confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.816,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 421,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1809,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 422,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1373,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 423,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1132,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 424,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2147,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 425,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1423,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 426,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1184,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 427,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2086,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 428,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0328,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 429,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0712,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 430,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2315,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 431,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7705,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 432,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1873,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 433,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0244,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 434,
+      "text": "Your salary transfer has been completed.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0891,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 435,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9597,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 436,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2183,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 437,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1541,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 438,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1318,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 439,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0638,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 440,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8835,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 441,
+      "text": "You have an unread secure document awaiting review.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8878,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 442,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1446,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 443,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1573,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 444,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1562,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 445,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0742,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 446,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.193,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 447,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0115,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 448,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1678,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 449,
+      "text": "Your request has been pre-approved based on recent activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.902,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 450,
+      "text": "Your request has been pre-approved based on recent activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8773,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 451,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0918,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 452,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0879,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 453,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0304,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 454,
+      "text": "A pending transaction needs confirmation.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9311,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 455,
+      "text": "Your profile requires attention before services can continue.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8153,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 456,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1557,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 457,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1912,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 458,
+      "text": "A response is needed regarding your account activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7766,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 459,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1268,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 460,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0629,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 461,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0118,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 462,
+      "text": "Your refund of EGP 350 has been processed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1942,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 463,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0887,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 464,
+      "text": "Your request has been pre-approved based on recent activity.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8534,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 465,
+      "text": "Your recent submission qualifies for further consideration.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9189,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 466,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1703,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 467,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2168,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 468,
+      "text": "We noticed a problem processing your recent request. Review details here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8603,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 469,
+      "text": "Please check your eligibility for recently updated benefits.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8882,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 470,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1636,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 471,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.015,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 472,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2374,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 473,
+      "text": "Your hospital test results are now available.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2307,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 474,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7754,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 475,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1358,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 476,
+      "text": "Reminder: Tuition payment deadline is tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.189,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 477,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0504,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 478,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1373,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 479,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0939,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 480,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1649,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 481,
+      "text": "Your profile requires attention before services can continue.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7851,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 482,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0467,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 483,
+      "text": "Bank of Egypt: EGP 12,450 has been deposited into your account.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0525,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 484,
+      "text": "Vodafone: You received 5GB bonus internet valid for 24 hours.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1213,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 485,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1177,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 486,
+      "text": "Flight MS985 departure time changed to 18:40.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1643,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 487,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.2174,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 488,
+      "text": "Amazon: Your package will arrive tomorrow. Track it in the app.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1155,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 489,
+      "text": "Please verify your attendance for tomorrow's interview.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0827,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 490,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0945,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 491,
+      "text": "We attempted to contact you concerning an important update.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8585,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 492,
+      "text": "Please update your records to avoid delays.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8189,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 493,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0317,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 494,
+      "text": "Your account password was changed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1211,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 495,
+      "text": "Microsoft: Your subscription has been renewed successfully.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1873,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 496,
+      "text": "Additional information is required to finalize processing.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9444,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 497,
+      "text": "Security Alert: New sign-in detected from your Windows device.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1552,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 498,
+      "text": "Your one-time verification code is 824193. Do not share it with anyone.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1181,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 499,
+      "text": "Google: Recovery email was updated.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0924,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    }
+  ]
+}

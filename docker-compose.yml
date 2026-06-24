@@ -1,0 +1,73 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Usage
+# ─────────────────────────────────────────────────────────────────────────────
+# 1. Train the model with the notebook to produce spam_model.pkl.
+# 2. Copy spam_model.pkl into this directory.
+# 3. Create a .env file (or export in your shell):
+#      BOT_TOKEN=your_telegram_bot_token_here
+# 4. docker compose up --build
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+
+  # ── Flask REST API ──────────────────────────────────────────────────────────
+  api:
+    build: .
+    image: spam-classifier
+    container_name: spam-api
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount the trained model and preprocessor (read-only). Must exist before `docker compose up`.
+      - ./spam_model.pkl:/app/spam_model.pkl:ro
+      - ./make_df.pkl:/app/make_df.pkl:ro
+    environment:
+      MODEL_PATH:       /app/spam_model.pkl
+      MAKE_DF_PATH:     /app/make_df.pkl
+      THRESHOLD:        "0.35"
+      PORT:             "5000"
+      MAX_MSG_LEN:      "2000"
+      RULE_MIN_KEYWORDS: "2"
+      RULE_MAX_WORDS:    "15"
+      RULE_MIN_PROB:     "0.20"
+    deploy:
+      resources:
+        limits:
+          memory: 768m
+          cpus: "1.0"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:5000/health"]
+      interval: 30s
+      timeout:  10s
+      start_period: 15s
+      retries:  3
+
+  # ── Telegram Bot ────────────────────────────────────────────────────────────
+  bot:
+    build: .
+    image: spam-classifier
+    container_name: spam-bot
+    restart: unless-stopped
+    # Touch bot_data.pkl *inside the container* before starting the bot so
+    # Docker never gets the chance to create the bind-mount path as a directory.
+    # Without this, if ./bot_data.pkl doesn't exist on the host, Docker creates
+    # it as a directory, which silently breaks PicklePersistence and causes
+    # user_data (thresholds, batch_mode) to reset on every Telegram update.
+    entrypoint: ["/bin/sh", "-c", "touch /app/bot_data.pkl && exec python telegram_bot.py"]
+    volumes:
+      # Persist user thresholds and settings across container restarts.
+      # The entrypoint above guarantees this is always a regular file.
+      - ./bot_data.pkl:/app/bot_data.pkl
+    environment:
+      BOT_TOKEN:        "${BOT_TOKEN}"
+      API_URL:          "http://api:5000"
+      PERSISTENCE_PATH: "/app/bot_data.pkl"
+    deploy:
+      resources:
+        limits:
+          memory: 128m
+          cpus: "0.5"
+    depends_on:
+      api:
+        condition: service_healthy

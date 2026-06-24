@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Spam Classifier Dashboard</title>
+<style>
+body{font-family:Arial;background:#0f172a;color:#fff;padding:30px}
+h1{text-align:center}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:30px}
+.c{background:#1e293b;padding:20px;border-radius:12px;text-align:center}
+.v{font-size:36px;font-weight:bold}
+table{width:100%;border-collapse:collapse;margin-top:20px}
+td,th{border:1px solid #334155;padding:10px;text-align:center}
+.sec{background:#1e293b;padding:20px;border-radius:12px;margin-top:20px}
+</style>
+</head>
+<body>
+
+<h1>Spam Detection Dashboard</h1>
+
+<div class="g">
+<div class="c"><div>Accuracy</div><div class="v" id="acc">-</div></div>
+<div class="c"><div>Precision</div><div class="v" id="pre">-</div></div>
+<div class="c"><div>Recall</div><div class="v" id="rec">-</div></div>
+<div class="c"><div>F1 Score</div><div class="v" id="f1">-</div></div>
+</div>
+
+<div class="sec">
+<h2>Dataset Summary</h2>
+<p>Total Messages: <span id="tot"></span></p>
+<p>Spam Messages: <span id="spam"></span></p>
+<p>Ham Messages: <span id="ham"></span></p>
+</div>
+
+<div class="sec">
+<h2>Confusion Matrix</h2>
+<table>
+<tr>
+<th></th>
+<th>Predicted Spam</th>
+<th>Predicted Ham</th>
+</tr>
+<tr>
+<th>Actual Spam</th>
+<td id="tp"></td>
+<td id="fn"></td>
+</tr>
+<tr>
+<th>Actual Ham</th>
+<td id="fp"></td>
+<td id="tn"></td>
+</tr>
+</table>
+</div>
+
+<div class="sec">
+<h2>Sample Messages</h2>
+<table id="msgs">
+<tr>
+<th>#</th>
+<th>Text</th>
+<th>True</th>
+<th>Predicted</th>
+</tr>
+</table>
+</div>
+
+<script>
+fetch("results_20260612_002213.json")
+.then(r=>r.json())
+.then(d=>{
+let m=d.metrics;
+
+acc.innerText=(m.accuracy*100).toFixed(1)+"%";
+pre.innerText=(m.precision*100).toFixed(1)+"%";
+rec.innerText=(m.recall*100).toFixed(1)+"%";
+f1.innerText=(m.f1*100).toFixed(1)+"%";
+
+tot.innerText=m.total;
+spam.innerText=m.spam_total;
+ham.innerText=m.ham_total;
+
+tp.innerText=m.true_positives;
+tn.innerText=m.true_negatives;
+fp.innerText=m.false_positives;
+fn.innerText=m.false_negatives;
+
+d.results.slice(0,15).forEach(x=>{
+msgs.innerHTML+=`
+<tr>
+<td>${x.index}</td>
+<td>${x.text}</td>
+<td>${x.true_label}</td>
+<td>${x.predicted_label}</td>
+</tr>`;
+});
+});
+</script>
+
+</body>
+</html>

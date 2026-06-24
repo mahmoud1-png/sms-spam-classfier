@@ -1,0 +1,5023 @@
+{
+  "tested_at": "2026-06-12T03:40:21.014767",
+  "api_url": "http://localhost:5000",
+  "threshold": 0.35,
+  "seed": 42,
+  "total": 500,
+  "source": "synthetic_random",
+  "metrics": {
+    "accuracy": 0.972,
+    "precision": 0.9958,
+    "recall": 0.948,
+    "f1": 0.9713,
+    "true_positives": 237,
+    "true_negatives": 249,
+    "false_positives": 1,
+    "false_negatives": 13,
+    "total": 500,
+    "spam_total": 250,
+    "ham_total": 250
+  },
+  "results": [
+    {
+      "index": 0,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-uiko4b.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5954,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 1,
+      "text": "Congratulations! You've been selected to receive a FREE iPhone. Reply YES to claim.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8722,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 2,
+      "text": "SPECIAL VIP OFFER: £1,000 casino bonus waiting for you. Register: casino-ni10kq.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6973,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 3,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/2rv239",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4941,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 4,
+      "text": "Coffee machine is broken again. Nightmare.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0585,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 5,
+      "text": "The kids are in bed. Finally! 😅",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0338,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 6,
+      "text": "You have $2,500 in unclaimed cashback. Claim before midnight: www.cashback-8myikc.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7726,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 7,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-ge2l4z.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5839,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 8,
+      "text": "Congrats on the promotion, well deserved!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0318,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 9,
+      "text": "Your Barclays subscription expires today. Renew now to avoid losing access: hhiwfd.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.688,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 10,
+      "text": "Just got back, had an amazing trip!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0532,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 11,
+      "text": "CONGRATULATIONS! You've been selected to win $750! Reply NOW to claim your prize.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8797,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 12,
+      "text": "Urgent: Amazon billing issue — your service will be suspended. Fix now: bill-d356wa.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6641,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 13,
+      "text": "SIX FIGURE INCOME from home! Grace made €150 last month. Find out how: rich-cri8bi.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3504,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 14,
+      "text": "Your eBay subscription expires today. Renew now to avoid losing access: 0u93mz.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.684,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 15,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 16,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-2p2tix.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5953,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 17,
+      "text": "FREE entry — you could win $5,000! Visit: www.prize-25m8kb.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8694,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 18,
+      "text": "SIX FIGURE INCOME from home! Tom made £1,000 last month. Find out how: rich-63btkf.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3429,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 19,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-ft4mpk.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5954,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 20,
+      "text": "ALERT: Suspicious login detected on your account. Call 0800-123-456 IMMEDIATELY.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5417,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 21,
+      "text": "ALERT: Suspicious login detected on your account. Call 0800-123-456 IMMEDIATELY.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5417,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 22,
+      "text": "Reminder: dentist appointment tomorrow at 6pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0663,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 23,
+      "text": "Your exclusive code is PRIZE3hcws2. Redeem $2,500 at: winbig-3hcws2.net now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6498,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 24,
+      "text": "The presentation went really well, thank you!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0182,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 25,
+      "text": "I'll be at the gym if you want to join.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0294,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 26,
+      "text": "Caught the earlier train, be home by 10am.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0191,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 27,
+      "text": "Security breach on your Netflix account! Immediate action required. Call 1-800-555-0199.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3202,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 28,
+      "text": "Are you still coming this weekend?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 29,
+      "text": "Long day today. Looking forward to the weekend.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0278,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 30,
+      "text": "IMPORTANT: Your Instagram account has been locked. Click now: www.verify-3q0e27.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8252,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 31,
+      "text": "The wifi is down again, working from the cafe.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0272,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 32,
+      "text": "Are you still coming this weekend?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 33,
+      "text": "You have been chosen for a special $2,500 reward. Reply CLAIM to receive it.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 34,
+      "text": "Your exclusive code is PRIZE1f63ai. Redeem $50,000 at: winbig-1f63ai.net now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6655,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 35,
+      "text": "Your invoice of £1,000 is overdue. To avoid legal action visit: debt-2kuuoy.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.387,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 36,
+      "text": "Thanks for covering for me yesterday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0591,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 37,
+      "text": "Are you still coming this weekend?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 38,
+      "text": "Don't forget we have dinner with mum at 2pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.025,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 39,
+      "text": "Kids' school play is at this afternoon on Friday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0226,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 40,
+      "text": "Don't forget we have dinner with mum at tonight.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0187,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 41,
+      "text": "You've been pre-approved for a €500 credit limit increase. Activate: card-lu8el5.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3883,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 42,
+      "text": "SPECIAL VIP OFFER: €500 casino bonus waiting for you. Register: casino-xii5p5.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7557,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 43,
+      "text": "Meeting moved to this afternoon tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0179,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 44,
+      "text": "Urgent: Apple billing issue — your service will be suspended. Fix now: bill-pgyvyv.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6714,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 45,
+      "text": "Anyone fancy a walk later?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0444,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 46,
+      "text": "URGENT: Your NatWest account has been SUSPENDED. Verify immediately: bit.ly/p767j2",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4337,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 47,
+      "text": "Do you want me to save you some leftovers?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0436,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 48,
+      "text": "Do you want me to save you some leftovers?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0436,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 49,
+      "text": "You've been pre-approved for a €150 credit limit increase. Activate: card-m264up.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3636,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 50,
+      "text": "Birthday card is in the kitchen drawer.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0296,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 51,
+      "text": "SPECIAL VIP OFFER: £1,000 casino bonus waiting for you. Register: casino-479qtk.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7343,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 52,
+      "text": "Security breach on your NatWest account! Immediate action required. Call 1-800-555-0199.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3325,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 53,
+      "text": "Kids' school play is at 6pm on Friday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0326,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 54,
+      "text": "Birthday card is in the kitchen drawer.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0296,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 55,
+      "text": "URGENT: Your Spotify account has been SUSPENDED. Verify immediately: bit.ly/q57te8",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4331,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 56,
+      "text": "Lunch at the gym at 7pm?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0307,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 57,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 58,
+      "text": "SPECIAL VIP OFFER: £200 casino bonus waiting for you. Register: casino-1rhouu.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7391,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 59,
+      "text": "Dropped the kids off at school, heading in now.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0276,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 60,
+      "text": "Your exclusive code is PRIZE4kgeui. Redeem €500 at: winbig-4kgeui.net now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6493,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 61,
+      "text": "Running 10 mins late, be there soon.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0379,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 62,
+      "text": "Explicit content unlocked! View your free videos now at: adult-lozjcn.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 63,
+      "text": "Car is in the garage until Wednesday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0253,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 64,
+      "text": "Save me a seat, getting coffee first.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 65,
+      "text": "IMPORTANT: Your Spotify account has been locked. Click now: www.verify-fmpkxv.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8236,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 66,
+      "text": "Just woke up, give me 20 mins.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0369,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 67,
+      "text": "LAST CHANCE: Unclaimed €500 prize expires in 24 hours. Call 1-800-555-0199 NOW.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6746,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 68,
+      "text": "Great news — I got the job!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0317,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 69,
+      "text": "Urgent: AT&T billing issue — your service will be suspended. Fix now: bill-hgzz0j.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6776,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 70,
+      "text": "Explicit content unlocked! View your free videos now at: adult-3litnt.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7504,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 71,
+      "text": "BREAKING: Claim your €150 stimulus payment before the deadline: gov-jefy3z.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6967,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 72,
+      "text": "Your Microsoft password needs resetting immediately. Click: www.Microsoft-secure-ez2nx1.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7178,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 73,
+      "text": "Feeling a bit under the weather today.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0243,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 74,
+      "text": "Explicit content unlocked! View your free videos now at: adult-n6sjch.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7564,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 75,
+      "text": "BREAKING: Claim your €500 stimulus payment before the deadline: gov-dnbcj2.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6742,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 76,
+      "text": "Lose weight FAST — guaranteed! Our secret pill costs only $19.99. Order: slim-rgvz9a.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6972,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 77,
+      "text": "Don't forget to take your keys!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0452,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 78,
+      "text": "FREE entry — you could win $100! Visit: www.prize-gm32wp.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8883,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 79,
+      "text": "Congratulations! You've been selected to receive a FREE iPhone. Reply YES to claim.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8722,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 80,
+      "text": "Proven system pays $1,000 per day working from home. Start now: earn-44ftj5.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.212,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 81,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 82,
+      "text": "Back home safe, thanks for a great evening.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0177,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 83,
+      "text": "The kids are in bed. Finally! 😅",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0338,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 84,
+      "text": "Hey Jack, are you free tonight?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0753,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 85,
+      "text": "Great news — I got the job!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0317,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 86,
+      "text": "Get out of debt fast! We can legally write off $50,000 of your debt. Call 0044 7911 123456.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8536,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 87,
+      "text": "SIX FIGURE INCOME from home! Olivia made €150 last month. Find out how: rich-wq85x7.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3896,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 88,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/1l0vdp",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5014,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 89,
+      "text": "Let me know when you're free to chat.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 90,
+      "text": "Your exclusive code is PRIZE7ewbxx. Redeem $100 at: winbig-7ewbxx.net now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6493,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 91,
+      "text": "Stuck in traffic, might be late to the meeting.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0171,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 92,
+      "text": "Explicit content unlocked! View your free videos now at: adult-i22kx7.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7488,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 93,
+      "text": "Just booked the holiday! So excited.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0661,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 94,
+      "text": "Anyone fancy a walk later?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0444,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 95,
+      "text": "You have €150 in unclaimed cashback. Claim before midnight: www.cashback-qxm063.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7706,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 96,
+      "text": "Urgent: Spotify billing issue — your service will be suspended. Fix now: bill-phx2kb.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6661,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 97,
+      "text": "We're out of toilet paper! Can you grab some?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0308,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 98,
+      "text": "I'll be at the cinema if you want to join.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0511,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 99,
+      "text": "Happy birthday! Hope you have a great day 🎂",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0185,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 100,
+      "text": "Bit chilly out there today — bring a jacket.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0205,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 101,
+      "text": "See you at 8pm at the pub.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0556,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 102,
+      "text": "You qualify for a $250 government refund. Claim now: www.refund-8n7odk.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.81,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 103,
+      "text": "Did you get my email about the budget?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0325,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 104,
+      "text": "SPECIAL VIP OFFER: $500 casino bonus waiting for you. Register: casino-ja0ass.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6893,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 105,
+      "text": "Just woke up, give me 20 mins.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0369,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 106,
+      "text": "Let me know when you're free to chat.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 107,
+      "text": "Anyone fancy a walk later?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0444,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 108,
+      "text": "Flight confirmed for Thursday. Can you drop me off?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0561,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 109,
+      "text": "WINNER! You've won our monthly lottery. Reply with bank details to collect €150.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7068,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 110,
+      "text": "Win $50,000 every week! Join our free lottery at: lottery-xdrlcm.com — no purchase needed",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7613,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 111,
+      "text": "Explicit content unlocked! View your free videos now at: adult-dknncp.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 112,
+      "text": "Car is in the garage until Wednesday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0253,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 113,
+      "text": "You are a WINNER! Claim your €500 prize by texting WIN to 07700 900123.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9206,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 114,
+      "text": "Mum says dinner is at tomorrow morning, don't be late.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.015,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 115,
+      "text": "Thanks for covering for me yesterday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0591,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 116,
+      "text": "Don't forget to take your keys!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0452,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 117,
+      "text": "Happy birthday! Hope you have a great day 🎂",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0185,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 118,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/18u9n7",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4997,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 119,
+      "text": "Urgent: Instagram billing issue — your service will be suspended. Fix now: bill-wl3zyt.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6944,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 120,
+      "text": "Feeling a bit under the weather today.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0243,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 121,
+      "text": "BREAKING: Claim your €150 stimulus payment before the deadline: gov-sxlmt2.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6742,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 122,
+      "text": "Your credit score qualifies you for a $750 instant loan. No checks. Apply: loan-nnv6cj.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.52,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 123,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 124,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/xszjnv",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4975,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 125,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/vwviac",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4975,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 126,
+      "text": "Urgent: NatWest billing issue — your service will be suspended. Fix now: bill-2fmr0t.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6724,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 127,
+      "text": "We're out of toilet paper! Can you grab some?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0308,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 128,
+      "text": "Just remembered it's bin day — can you put it out?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0402,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 129,
+      "text": "Birthday card is in the kitchen drawer.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0296,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 130,
+      "text": "Don't forget we have dinner with mum at 3:30pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.025,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 131,
+      "text": "Just booked the holiday! So excited.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0661,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 132,
+      "text": "The wifi is down again, working from the cafe.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0272,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 133,
+      "text": "Tax refund of $2,500 is owed to you. Claim here: www.taxrefund-18kgyg.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8272,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 134,
+      "text": "Lunch at the park at tomorrow morning?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0158,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 135,
+      "text": "LAST CHANCE: Unclaimed $1,000 prize expires in 24 hours. Call 555-0101 NOW.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6746,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 136,
+      "text": "Your parcel could not be delivered. Pay $10,000 redelivery fee: parcel-qoagsu.com",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1229,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 137,
+      "text": "Your Google password needs resetting immediately. Click: www.Google-secure-zrp9dx.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5407,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 138,
+      "text": "Your credit score qualifies you for a $5,000 instant loan. No checks. Apply: loan-3ksgnb.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5113,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 139,
+      "text": "Your Facebook subscription expires today. Renew now to avoid losing access: 2v2tg5.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6226,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 140,
+      "text": "Your loan of $250 has been APPROVED! Click here to receive your funds today.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3053,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 141,
+      "text": "Exclusive offer: Earn $5,000/month working from home! No experience needed. Apply now.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1666,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 142,
+      "text": "CONGRATULATIONS! You've been selected to win $5,000! Reply NOW to claim your prize.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8797,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 143,
+      "text": "URGENT: Your PayPal account has been SUSPENDED. Verify immediately: bit.ly/1vzc7d",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4282,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 144,
+      "text": "I'll be at the library if you want to join.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0322,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 145,
+      "text": "Your Facebook password needs resetting immediately. Click: www.Facebook-secure-6rupw2.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5089,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 146,
+      "text": "You have been chosen for a special $100 reward. Reply CLAIM to receive it.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 147,
+      "text": "You have been chosen for a special £200 reward. Reply CLAIM to receive it.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 148,
+      "text": "Your AT&T subscription expires today. Renew now to avoid losing access: 0j36tc.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6813,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 149,
+      "text": "Coffee machine is broken again. Nightmare.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0585,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 150,
+      "text": "I'll be at home if you want to join.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.021,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 151,
+      "text": "You qualify for a $10,000 government refund. Claim now: www.refund-q1s05w.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8081,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 152,
+      "text": "Your card has been compromised. Call 1-888-555-0142 RIGHT NOW to secure your account.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1526,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 153,
+      "text": "ALERT: Suspicious login detected on your account. Call 0800-456-789 IMMEDIATELY.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5417,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 154,
+      "text": "Birthday card is in the kitchen drawer.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0296,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 155,
+      "text": "Just got back, had an amazing trip!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0532,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 156,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-ajw253.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5869,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 157,
+      "text": "URGENT: Your Netflix account has been SUSPENDED. Verify immediately: bit.ly/328w6u",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.433,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 158,
+      "text": "Mum says dinner is at 11am, don't be late.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0154,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 159,
+      "text": "Feeling a bit under the weather today.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0243,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 160,
+      "text": "Sorry I missed your call, was in a meeting.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0312,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 161,
+      "text": "Working late tonight, don't wait up.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 162,
+      "text": "URGENT: Your Vodafone account has been SUSPENDED. Verify immediately: bit.ly/29omuw",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4975,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 163,
+      "text": "As a loyal customer you've won $500. Click to claim: reward-irq8rt.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7422,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 164,
+      "text": "You've been pre-approved for a $10,000 credit limit increase. Activate: card-l7dypm.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3898,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 165,
+      "text": "Exclusive offer: Earn €150/month working from home! No experience needed. Apply now.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1666,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 166,
+      "text": "Congrats on the promotion, well deserved!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0318,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 167,
+      "text": "The match is on at 9am, coming over?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0297,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 168,
+      "text": "Coffee machine is broken again. Nightmare.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0585,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 169,
+      "text": "Urgent: Spotify billing issue — your service will be suspended. Fix now: bill-c9x5jz.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6844,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 170,
+      "text": "The match is on at 6pm, coming over?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.045,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 171,
+      "text": "The kids are in bed. Finally! 😅",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0338,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 172,
+      "text": "Are you still coming this weekend?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 173,
+      "text": "Your Microsoft password needs resetting immediately. Click: www.Microsoft-secure-cb8qss.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7187,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 174,
+      "text": "Flight confirmed for Thursday. Can you drop me off?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0561,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 175,
+      "text": "I'll be at the cinema if you want to join.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0511,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 176,
+      "text": "SIX FIGURE INCOME from home! Mike made $250 last month. Find out how: rich-43wfsq.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3413,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 177,
+      "text": "Good morning! Don't forget your umbrella today.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0282,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 178,
+      "text": "Your loan of $10,000 has been APPROVED! Click here to receive your funds today.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3053,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 179,
+      "text": "Coffee machine is broken again. Nightmare.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0585,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 180,
+      "text": "Urgent: Vodafone billing issue — your service will be suspended. Fix now: bill-bfxb4y.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7243,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 181,
+      "text": "CONGRATULATIONS! You've been selected to win $500! Reply NOW to claim your prize.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8797,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 182,
+      "text": "Double your money fast! Investment opportunity — $50,000 return guaranteed. Click here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4928,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 183,
+      "text": "You've been pre-approved for a $1,000 credit limit increase. Activate: card-4iq7zj.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3883,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 184,
+      "text": "FREE entry — you could win $250! Visit: www.prize-hwkmy9.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8765,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 185,
+      "text": "You have £200 in unclaimed cashback. Claim before midnight: www.cashback-4s7azv.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7706,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 186,
+      "text": "Just woke up, give me 20 mins.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0369,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 187,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/4h20ra",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4998,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 188,
+      "text": "The presentation went really well, thank you!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0182,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 189,
+      "text": "FREE gift waiting for you! You've won a prize. Call 1-888-555-0142 to claim it now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8574,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 190,
+      "text": "Coffee machine is broken again. Nightmare.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0585,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 191,
+      "text": "Congrats on the promotion, well deserved!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0318,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 192,
+      "text": "Congratulations! You've been selected to receive a FREE iPhone. Reply YES to claim.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8722,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 193,
+      "text": "Kids are asking when you're coming over.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0215,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 194,
+      "text": "Bit chilly out there today — bring a jacket.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0205,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 195,
+      "text": "Tax refund of €150 is owed to you. Claim here: www.taxrefund-q5v7c6.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8474,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 196,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-nfxj4p.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5954,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 197,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 198,
+      "text": "Urgent: Microsoft billing issue — your service will be suspended. Fix now: bill-ymx9dj.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6944,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 199,
+      "text": "Your credit score qualifies you for a $5,000 instant loan. No checks. Apply: loan-f8a9ke.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.521,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 200,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 201,
+      "text": "Win $5,000 every week! Join our free lottery at: lottery-c4kl8c.com — no purchase needed",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7694,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 202,
+      "text": "SPECIAL VIP OFFER: £200 casino bonus waiting for you. Register: casino-5nqjqi.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7391,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 203,
+      "text": "Just checking in — hope everything is going well.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0155,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 204,
+      "text": "WINNER! You've won our monthly lottery. Reply with bank details to collect $5,000.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7068,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 205,
+      "text": "Found your wallet in the car. I'll drop it off.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0273,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 206,
+      "text": "Can we reschedule our call? Something came up.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0394,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 207,
+      "text": "I'll be at the park if you want to join.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0299,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 208,
+      "text": "Caught the earlier train, be home by tomorrow morning.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.016,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 209,
+      "text": "Can you grab bread on your way back?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0206,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 210,
+      "text": "You have been chosen for a special $100 reward. Reply CLAIM to receive it.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 211,
+      "text": "Just booked the holiday! So excited.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0661,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 212,
+      "text": "Win $750 every week! Join our free lottery at: lottery-e1g983.com — no purchase needed",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7607,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 213,
+      "text": "Hope your interview went well, thinking of you.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0156,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 214,
+      "text": "Your Apple password needs resetting immediately. Click: www.Apple-secure-1b3jcz.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.724,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 215,
+      "text": "You qualify for a $250 government refund. Claim now: www.refund-wqh5k2.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.81,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 216,
+      "text": "Thanks for covering for me yesterday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0591,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 217,
+      "text": "Your exclusive code is PRIZEv07oxk. Redeem $5,000 at: winbig-v07oxk.net now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3555,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 218,
+      "text": "Sorry I missed your call, was in a meeting.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0312,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 219,
+      "text": "Your invoice of £200 is overdue. To avoid legal action visit: debt-cmlxzv.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3888,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 220,
+      "text": "Caught the earlier train, be home by 3:30pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0222,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 221,
+      "text": "SIX FIGURE INCOME from home! Kate made €500 last month. Find out how: rich-53uy8u.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2685,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 222,
+      "text": "FREE entry — you could win $5,000! Visit: www.prize-1v3zo7.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8867,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 223,
+      "text": "Long day today. Looking forward to the weekend.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0278,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 224,
+      "text": "The presentation went really well, thank you!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0182,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 225,
+      "text": "Your loan of $50,000 has been APPROVED! Click here to receive your funds today.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3053,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 226,
+      "text": "Running 10 mins late, be there soon.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0379,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 227,
+      "text": "Just checking in — hope everything is going well.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0155,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 228,
+      "text": "Kids' school play is at 6pm on Friday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0326,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 229,
+      "text": "Bit chilly out there today — bring a jacket.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0205,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 230,
+      "text": "You qualify for a $50,000 government refund. Claim now: www.refund-1w4k2t.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8081,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 231,
+      "text": "Proven system pays €500 per day working from home. Start now: earn-22vxyz.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2123,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 232,
+      "text": "Can you send me the WiFi password again?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0844,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 233,
+      "text": "Your card has been compromised. Call 555-0101 RIGHT NOW to secure your account.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1526,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 234,
+      "text": "You qualify for a $750 government refund. Claim now: www.refund-jkuuhc.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8031,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 235,
+      "text": "FREE entry — you could win $100! Visit: www.prize-k20in8.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8717,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 236,
+      "text": "Win £1,000 every week! Join our free lottery at: lottery-sq3b9s.com — no purchase needed",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7607,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 237,
+      "text": "Just remembered it's bin day — can you put it out?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0402,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 238,
+      "text": "Car is in the garage until Wednesday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0253,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 239,
+      "text": "Meeting moved to 6pm tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0262,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 240,
+      "text": "As a loyal customer you've won $100. Click to claim: reward-4l1vzn.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.742,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 241,
+      "text": "FREE entry — you could win €150! Visit: www.prize-vk0ucc.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8909,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 242,
+      "text": "Your loan of $2,500 has been APPROVED! Click here to receive your funds today.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3053,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 243,
+      "text": "CONGRATULATIONS! You've been selected to win $2,500! Reply NOW to claim your prize.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8797,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 244,
+      "text": "Lose weight FAST — guaranteed! Our secret pill costs only $19.99. Order: slim-nj4x5a.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7032,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 245,
+      "text": "SIX FIGURE INCOME from home! Hannah made $1,000 last month. Find out how: rich-g6v5t1.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3431,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 246,
+      "text": "Did you get my email about the budget?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0325,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 247,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 248,
+      "text": "You have been chosen for a special £200 reward. Reply CLAIM to receive it.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 249,
+      "text": "Limited time: 90% off all medications. Discreet delivery. Order: pill-8wru1x.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6637,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 250,
+      "text": "Security breach on your Netflix account! Immediate action required. Call 1-800-555-0199.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3202,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 251,
+      "text": "You are a WINNER! Claim your £1,000 prize by texting WIN to 555-0101.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8439,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 252,
+      "text": "Could you babysit on Friday night? Pretty please 😊",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0259,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 253,
+      "text": "Reminder: dentist appointment tomorrow at 2pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0663,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 254,
+      "text": "Dropped the kids off at school, heading in now.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0276,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 255,
+      "text": "LAST CHANCE: Unclaimed £200 prize expires in 24 hours. Call 0800-456-789 NOW.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6746,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 256,
+      "text": "The presentation went really well, thank you!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0182,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 257,
+      "text": "Lunch at the cafe at this afternoon?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0201,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 258,
+      "text": "URGENT: Your AT&T account has been SUSPENDED. Verify immediately: bit.ly/r0aymk",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4261,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 259,
+      "text": "Congrats on the promotion, well deserved!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0318,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 260,
+      "text": "Just woke up, give me 20 mins.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0369,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 261,
+      "text": "Dropped the kids off at school, heading in now.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0276,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 262,
+      "text": "FREE gift waiting for you! You've won a prize. Call 1-800-555-0199 to claim it now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8574,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 263,
+      "text": "Left my charger at yours — any chance you can bring it?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0244,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 264,
+      "text": "Flight confirmed for Thursday. Can you drop me off?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0561,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 265,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/likwe4",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4961,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 266,
+      "text": "SPECIAL VIP OFFER: £200 casino bonus waiting for you. Register: casino-9vs9kk.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.751,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 267,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-rvdh8u.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5954,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 268,
+      "text": "Bit chilly out there today — bring a jacket.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0205,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 269,
+      "text": "Back home safe, thanks for a great evening.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0177,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 270,
+      "text": "Reminder: dentist appointment tomorrow at 8pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0663,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 271,
+      "text": "The match is on at tonight, coming over?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.022,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 272,
+      "text": "Just remembered it's bin day — can you put it out?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0402,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 273,
+      "text": "Let me know when you're free to chat.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 274,
+      "text": "Quick question — what time does the shop close?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0281,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 275,
+      "text": "The cat knocked over your plant again, sorry.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0255,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 276,
+      "text": "Found your wallet in the car. I'll drop it off.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0273,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 277,
+      "text": "Sorry I missed your call, was in a meeting.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0312,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 278,
+      "text": "Hey Amy, are you free tonight?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0809,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 279,
+      "text": "BREAKING: Claim your $50,000 stimulus payment before the deadline: gov-gvzhqj.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6757,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 280,
+      "text": "The wifi is down again, working from the cafe.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0272,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 281,
+      "text": "On my way! Be there in about 20 minutes.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0286,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 282,
+      "text": "Call me when you get a chance.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.121,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 283,
+      "text": "Just landed, heading to baggage claim now.",
+      "true_label": "ham",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4792,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": false
+    },
+    {
+      "index": 284,
+      "text": "Kids' school play is at 11am on Friday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0273,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 285,
+      "text": "You have $100 in unclaimed cashback. Claim before midnight: www.cashback-w3u1hb.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7943,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 286,
+      "text": "Bit chilly out there today — bring a jacket.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0205,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 287,
+      "text": "You are a WINNER! Claim your £200 prize by texting WIN to 07700 900123.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.9206,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 288,
+      "text": "URGENT: Your Vodafone account has been SUSPENDED. Verify immediately: bit.ly/uxt9kl",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5061,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 289,
+      "text": "CONGRATULATIONS! You've been selected to win €150! Reply NOW to claim your prize.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8797,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 290,
+      "text": "Limited time: 90% off all medications. Discreet delivery. Order: pill-xxjve3.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6632,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 291,
+      "text": "Sorry I missed your call, was in a meeting.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0312,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 292,
+      "text": "Don't forget we have dinner with mum at 8pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.025,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 293,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/7f00te",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4998,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 294,
+      "text": "You are a WINNER! Claim your $1,000 prize by texting WIN to 555-0101.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8439,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 295,
+      "text": "Let me know when you're free to chat.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 296,
+      "text": "BREAKING: Claim your $10,000 stimulus payment before the deadline: gov-8a5fbu.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6733,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 297,
+      "text": "Did you get my email about the budget?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0325,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 298,
+      "text": "FREE gift waiting for you! You've won a prize. Call 1-800-555-0199 to claim it now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8574,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 299,
+      "text": "Car is in the garage until Wednesday.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0253,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 300,
+      "text": "Found your wallet in the car. I'll drop it off.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0273,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 301,
+      "text": "The match is on at 10am, coming over?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0297,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 302,
+      "text": "Anyone fancy a walk later?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0444,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 303,
+      "text": "Your invoice of $250 is overdue. To avoid legal action visit: debt-3sflse.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.387,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 304,
+      "text": "Mum says dinner is at 3:30pm, don't be late.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0171,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 305,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 306,
+      "text": "Don't forget we have dinner with mum at 4pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.025,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 307,
+      "text": "See you at 3:30pm at the library.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0366,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 308,
+      "text": "Just booked the holiday! So excited.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0661,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 309,
+      "text": "Save me a seat, getting coffee first.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 310,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 311,
+      "text": "Get out of debt fast! We can legally write off $250 of your debt. Call 0800-123-456.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1246,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 312,
+      "text": "You've been pre-approved for a $2,500 credit limit increase. Activate: card-9ymszd.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3872,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 313,
+      "text": "Great news — I got the job!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0317,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 314,
+      "text": "Found your wallet in the car. I'll drop it off.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0273,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 315,
+      "text": "Your credit score qualifies you for a $250 instant loan. No checks. Apply: loan-hub2rt.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.52,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 316,
+      "text": "The train is delayed again, of course.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0216,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 317,
+      "text": "Just checking in — hope everything is going well.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0155,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 318,
+      "text": "The wifi is down again, working from the cafe.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0272,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 319,
+      "text": "Thanks for dinner last night, it was lovely.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0199,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 320,
+      "text": "Got your voicemail, calling you back in 5.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.026,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 321,
+      "text": "Just finished the report, sending it over now.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0263,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 322,
+      "text": "IMPORTANT: Your Amazon account has been locked. Click now: www.verify-dnpx2i.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8233,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 323,
+      "text": "WINNER! You've won our monthly lottery. Reply with bank details to collect $250.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7068,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 324,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 325,
+      "text": "WINNER! You've won our monthly lottery. Reply with bank details to collect $750.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7068,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 326,
+      "text": "Running 10 mins late, be there soon.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0379,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 327,
+      "text": "Thanks for dinner last night, it was lovely.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0199,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 328,
+      "text": "Lost my keys again, help!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0652,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 329,
+      "text": "BREAKING: Claim your €500 stimulus payment before the deadline: gov-r2mulj.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6967,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 330,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-2q4qer.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5953,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 331,
+      "text": "Can you proofread this email before I send it?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0266,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 332,
+      "text": "Can you pick up some milk on the way home?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0171,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 333,
+      "text": "Let me know when you're free to chat.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 334,
+      "text": "Do we need anything from the supermarket?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0169,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 335,
+      "text": "IMPORTANT: Your NatWest account has been locked. Click now: www.verify-htmqwy.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8221,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 336,
+      "text": "Your card has been compromised. Call 1-888-555-0142 RIGHT NOW to secure your account.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1526,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 337,
+      "text": "Reminder: dentist appointment tomorrow at this afternoon.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0362,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 338,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 339,
+      "text": "Lose weight FAST — guaranteed! Our secret pill costs only $19.99. Order: slim-7eobjl.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.698,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 340,
+      "text": "We need to verify your details or your account closes today. Click: bit.ly/me6rpk",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2689,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 341,
+      "text": "We're out of toilet paper! Can you grab some?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0308,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 342,
+      "text": "ALERT: Suspicious login detected on your account. Call 0800-456-789 IMMEDIATELY.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5417,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 343,
+      "text": "Save me a seat, getting coffee first.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 344,
+      "text": "You have been chosen for a special $50,000 reward. Reply CLAIM to receive it.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 345,
+      "text": "LAST CHANCE: Unclaimed £200 prize expires in 24 hours. Call 555-0101 NOW.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6746,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 346,
+      "text": "Lost my keys again, help!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0652,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 347,
+      "text": "SIX FIGURE INCOME from home! David made $250 last month. Find out how: rich-tpv726.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3413,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 348,
+      "text": "Explicit content unlocked! View your free videos now at: adult-lohhcu.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 349,
+      "text": "FREE entry — you could win $500! Visit: www.prize-ye0qzs.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8909,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 350,
+      "text": "Dropped the kids off at school, heading in now.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0276,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 351,
+      "text": "Congratulations! You've been selected to receive a FREE iPhone. Reply YES to claim.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8722,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 352,
+      "text": "Did you get my email about the budget?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0325,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 353,
+      "text": "Urgent: NatWest billing issue — your service will be suspended. Fix now: bill-zzj64q.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6807,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 354,
+      "text": "Left my charger at yours — any chance you can bring it?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0244,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 355,
+      "text": "Do you want me to save you some leftovers?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0436,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 356,
+      "text": "LAST CHANCE: Unclaimed $100 prize expires in 24 hours. Call 0800-123-456 NOW.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6746,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 357,
+      "text": "The train is delayed again, of course.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0216,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 358,
+      "text": "URGENT: Your Vodafone account has been SUSPENDED. Verify immediately: bit.ly/6jqfww",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4976,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 359,
+      "text": "You qualify for a $50,000 government refund. Claim now: www.refund-zx25qb.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.81,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 360,
+      "text": "Limited time: 90% off all medications. Discreet delivery. Order: pill-f8adf7.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6637,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 361,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 362,
+      "text": "Proven system pays €500 per day working from home. Start now: earn-oxrteo.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2145,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 363,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-gjj8mg.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5954,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 364,
+      "text": "Limited time: 90% off all medications. Discreet delivery. Order: pill-5bxd8w.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6637,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 365,
+      "text": "Did you get my email about the budget?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0325,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 366,
+      "text": "Thanks for dinner last night, it was lovely.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0199,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 367,
+      "text": "Get out of debt fast! We can legally write off €500 of your debt. Call 555-0101.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1246,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 368,
+      "text": "Left my charger at yours — any chance you can bring it?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0244,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 369,
+      "text": "We need to verify your details or your account closes today. Click: bit.ly/knfu84",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2686,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 370,
+      "text": "Quick question — what time does the shop close?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0281,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 371,
+      "text": "You qualify for a $250 government refund. Claim now: www.refund-2o04k0.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8006,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 372,
+      "text": "Proven system pays $50,000 per day working from home. Start now: earn-ws44c6.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2185,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 373,
+      "text": "Congrats on the promotion, well deserved!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0318,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 374,
+      "text": "On my way! Be there in about 20 minutes.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0286,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 375,
+      "text": "The presentation went really well, thank you!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0182,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 376,
+      "text": "You are a WINNER! Claim your $1,000 prize by texting WIN to 0800-456-789.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8439,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 377,
+      "text": "BREAKING: Claim your $100 stimulus payment before the deadline: gov-gywiym.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6757,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 378,
+      "text": "Bit chilly out there today — bring a jacket.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0205,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 379,
+      "text": "Working late tonight, don't wait up.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 380,
+      "text": "Just finished the report, sending it over now.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0263,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 381,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-uu01uy.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5953,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 382,
+      "text": "SIX FIGURE INCOME from home! Hannah made $5,000 last month. Find out how: rich-98cqk4.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3414,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 383,
+      "text": "Reminder: dentist appointment tomorrow at 4pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0663,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 384,
+      "text": "Thanks for dinner last night, it was lovely.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0199,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 385,
+      "text": "Lunch at Starbucks at 7pm?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0369,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 386,
+      "text": "Long day today. Looking forward to the weekend.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0278,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 387,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 388,
+      "text": "Double your money fast! Investment opportunity — €150 return guaranteed. Click here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4928,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 389,
+      "text": "SIX FIGURE INCOME from home! Tom made £1,000 last month. Find out how: rich-vcneas.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3414,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 390,
+      "text": "Lost my keys again, help!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0652,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 391,
+      "text": "FREE gift waiting for you! You've won a prize. Call 0800-456-789 to claim it now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8574,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 392,
+      "text": "Happy anniversary! Love you so much ❤️",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0225,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 393,
+      "text": "Lose weight FAST — guaranteed! Our secret pill costs only $19.99. Order: slim-o4gkww.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6972,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 394,
+      "text": "Happy anniversary! Love you so much ❤️",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0225,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 395,
+      "text": "Tax refund of $50,000 is owed to you. Claim here: www.taxrefund-xtnsrt.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8286,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 396,
+      "text": "Just checking in — hope everything is going well.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0155,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 397,
+      "text": "You are a WINNER! Claim your $100 prize by texting WIN to 0800-456-789.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8439,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 398,
+      "text": "Lunch at school at 6pm?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0291,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 399,
+      "text": "Thanks for the birthday present, you're the best!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0288,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 400,
+      "text": "Get out of debt fast! We can legally write off $1,000 of your debt. Call 1-888-555-0142.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1246,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 401,
+      "text": "You are a WINNER! Claim your $50,000 prize by texting WIN to 555-0101.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8439,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 402,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 403,
+      "text": "Tax refund of £200 is owed to you. Claim here: www.taxrefund-o2rntj.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8272,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 404,
+      "text": "Limited time: 90% off all medications. Discreet delivery. Order: pill-va984u.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6653,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 405,
+      "text": "Limited time: 90% off all medications. Discreet delivery. Order: pill-x70fql.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6637,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 406,
+      "text": "We're out of toilet paper! Can you grab some?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0308,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 407,
+      "text": "Picking up takeaway on the way home — want anything?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0149,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 408,
+      "text": "Stuck in traffic, might be late to the meeting.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0171,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 409,
+      "text": "Happy anniversary! Love you so much ❤️",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0225,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 410,
+      "text": "Lose weight FAST — guaranteed! Our secret pill costs only $19.99. Order: slim-dxb7gb.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7213,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 411,
+      "text": "Did you watch the game last night?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0404,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 412,
+      "text": "Call me when you get a chance.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.121,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 413,
+      "text": "Just finished the report, sending it over now.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0263,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 414,
+      "text": "Your loan of $1,000 has been APPROVED! Click here to receive your funds today.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3053,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 415,
+      "text": "Your Vodafone password needs resetting immediately. Click: www.Vodafone-secure-9w4j66.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7428,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 416,
+      "text": "Proven system pays $5,000 per day working from home. Start now: earn-jlpefj.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2145,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 417,
+      "text": "Your credit score qualifies you for a $5,000 instant loan. No checks. Apply: loan-o6q0us.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5207,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 418,
+      "text": "As a loyal customer you've won €500. Click to claim: reward-dlx1q8.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.742,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 419,
+      "text": "Running 10 mins late, be there soon.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0379,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 420,
+      "text": "Working late tonight, don't wait up.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 421,
+      "text": "CONGRATULATIONS! You've been selected to win $500! Reply NOW to claim your prize.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8797,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 422,
+      "text": "URGENT: Your Barclays account has been SUSPENDED. Verify immediately: bit.ly/c9t199",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4275,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 423,
+      "text": "Don't forget to take your keys!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0452,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 424,
+      "text": "Kids are asking when you're coming over.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0215,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 425,
+      "text": "As a loyal customer you've won $2,500. Click to claim: reward-rwgwaj.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7416,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 426,
+      "text": "See you at 4pm at the park.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0351,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 427,
+      "text": "Your invoice of €150 is overdue. To avoid legal action visit: debt-bjfvyb.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3888,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 428,
+      "text": "WINNER! You've won our monthly lottery. Reply with bank details to collect $500.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7068,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 429,
+      "text": "Get out of debt fast! We can legally write off €150 of your debt. Call 0044 7911 123456.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8536,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 430,
+      "text": "IMPORTANT: Your Microsoft account has been locked. Click now: www.verify-54mype.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8236,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 431,
+      "text": "You have $250 in unclaimed cashback. Claim before midnight: www.cashback-s2ftom.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7707,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 432,
+      "text": "Feeling a bit under the weather today.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0243,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 433,
+      "text": "Congratulations! You've been selected to receive a FREE iPhone. Reply YES to claim.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8722,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 434,
+      "text": "Your parcel could not be delivered. Pay $1,000 redelivery fee: parcel-xvl5pv.com",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1238,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 435,
+      "text": "WINNER! You've won our monthly lottery. Reply with bank details to collect $750.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7068,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 436,
+      "text": "We need to verify your details or your account closes today. Click: bit.ly/6yriad",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.269,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 437,
+      "text": "Quick question — what time does the shop close?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0281,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 438,
+      "text": "The presentation went really well, thank you!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0182,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 439,
+      "text": "Mum says dinner is at 6pm, don't be late.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0171,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 440,
+      "text": "SIX FIGURE INCOME from home! Emma made £200 last month. Find out how: rich-o5f9m9.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3416,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 441,
+      "text": "Congratulations! You've been selected to receive a FREE iPhone. Reply YES to claim.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8722,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 442,
+      "text": "Proven system pays €150 per day working from home. Start now: earn-het25l.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2202,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 443,
+      "text": "FREE entry — you could win $500! Visit: www.prize-2vffqo.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8765,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 444,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 445,
+      "text": "Kids are asking when you're coming over.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0215,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 446,
+      "text": "SIX FIGURE INCOME from home! Maria made £1,000 last month. Find out how: rich-qeslay.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3484,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 447,
+      "text": "Proven system pays $2,500 per day working from home. Start now: earn-4x0qzf.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.2202,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 448,
+      "text": "LAST CHANCE: Unclaimed £200 prize expires in 24 hours. Call 0800-456-789 NOW.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6746,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 449,
+      "text": "Security breach on your Apple account! Immediate action required. Call 07700 900123.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8872,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 450,
+      "text": "You've been pre-approved for a $2,500 credit limit increase. Activate: card-p4juw7.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3883,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 451,
+      "text": "Your credit score qualifies you for a $1,000 instant loan. No checks. Apply: loan-xoleyr.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5116,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 452,
+      "text": "We're out of toilet paper! Can you grab some?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0308,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 453,
+      "text": "Don't forget we have dinner with mum at 9am.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0194,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 454,
+      "text": "BREAKING: Claim your $250 stimulus payment before the deadline: gov-ssrkxl.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6757,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 455,
+      "text": "Mum says dinner is at 7pm, don't be late.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0171,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 456,
+      "text": "LAST CHANCE: Unclaimed $2,500 prize expires in 24 hours. Call 555-0101 NOW.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6746,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 457,
+      "text": "Heading out now, see you at the gym.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0243,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 458,
+      "text": "Back home safe, thanks for a great evening.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0177,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 459,
+      "text": "You have been chosen for a special $10,000 reward. Reply CLAIM to receive it.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7532,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 460,
+      "text": "Happy birthday! Hope you have a great day 🎂",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0185,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 461,
+      "text": "Your credit score qualifies you for a €500 instant loan. No checks. Apply: loan-dmt8vt.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.52,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 462,
+      "text": "Can you proofread this email before I send it?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0266,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 463,
+      "text": "The match is on at 2pm, coming over?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.045,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 464,
+      "text": "Meeting moved to 8pm tomorrow.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0262,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 465,
+      "text": "CONGRATULATIONS! You've been selected to win $10,000! Reply NOW to claim your prize.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8797,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 466,
+      "text": "Your Spotify password needs resetting immediately. Click: www.Spotify-secure-xg8y72.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7183,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 467,
+      "text": "Hey Kate, are you free tonight?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0725,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 468,
+      "text": "Are you coming to Kate's party on Saturday?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0267,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 469,
+      "text": "Exclusive offer: Earn $100/month working from home! No experience needed. Apply now.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1666,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 470,
+      "text": "FREE entry — you could win $2,500! Visit: www.prize-jmylrq.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8808,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 471,
+      "text": "Save me a seat, getting coffee first.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0396,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 472,
+      "text": "Your parcel could not be delivered. Pay £200 redelivery fee: parcel-bufwbu.com",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1229,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 473,
+      "text": "Your exclusive code is PRIZEsxtv76. Redeem €500 at: winbig-sxtv76.net now.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3449,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 474,
+      "text": "Win €150 every week! Join our free lottery at: lottery-b4gf16.com — no purchase needed",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7607,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 475,
+      "text": "Your invoice of $1,000 is overdue. To avoid legal action visit: debt-7udktm.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.387,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 476,
+      "text": "Don't forget we have dinner with mum at 9am.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0194,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 477,
+      "text": "You have €150 in unclaimed cashback. Claim before midnight: www.cashback-ldqlov.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7727,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 478,
+      "text": "Proven system pays €150 per day working from home. Start now: earn-b6bndo.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.221,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 479,
+      "text": "Flight confirmed for Thursday. Can you drop me off?",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0561,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 480,
+      "text": "Long day today. Looking forward to the weekend.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0278,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 481,
+      "text": "Feeling a bit under the weather today.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0243,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 482,
+      "text": "Don't forget we have dinner with mum at 5pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.025,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 483,
+      "text": "Mum says dinner is at 4pm, don't be late.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0171,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 484,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-n9i9h0.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5979,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 485,
+      "text": "FREE entry — you could win $500! Visit: www.prize-qjicjd.com before midnight.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.8808,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 486,
+      "text": "FINAL NOTICE: Your account will be closed. Verify your details NOW at bit.ly/toowt9",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4961,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 487,
+      "text": "Get out of debt fast! We can legally write off €500 of your debt. Call 1-800-555-0199.",
+      "true_label": "spam",
+      "predicted_label": "HAM",
+      "spam_probability": 0.1246,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": false
+    },
+    {
+      "index": 488,
+      "text": "Working late tonight, don't wait up.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0165,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 489,
+      "text": "Don't forget to feed the dog before you leave.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0327,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 490,
+      "text": "Lose weight FAST — guaranteed! Our secret pill costs only $19.99. Order: slim-bepejz.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7021,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 491,
+      "text": "The presentation went really well, thank you!",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0182,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 492,
+      "text": "Win $1,000 every week! Join our free lottery at: lottery-47rrbe.com — no purchase needed",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7513,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 493,
+      "text": "BREAKING: Claim your £1,000 stimulus payment before the deadline: gov-kgxukq.com",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.6757,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 494,
+      "text": "WINNER! You've won our monthly lottery. Reply with bank details to collect €500.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.7068,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 495,
+      "text": "Your loan of €150 has been APPROVED! Click here to receive your funds today.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.3053,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 496,
+      "text": "Double your money fast! Investment opportunity — $750 return guaranteed. Click here.",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.4928,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 497,
+      "text": "Reminder: dentist appointment tomorrow at 5pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0663,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    },
+    {
+      "index": 498,
+      "text": "Hot singles near you want to chat. FREE registration: www.meet-lzfy98.net",
+      "true_label": "spam",
+      "predicted_label": "SPAM",
+      "spam_probability": 0.5841,
+      "threshold": 0.35,
+      "rule_triggered": true,
+      "correct": true
+    },
+    {
+      "index": 499,
+      "text": "Reminder: dentist appointment tomorrow at 4pm.",
+      "true_label": "ham",
+      "predicted_label": "HAM",
+      "spam_probability": 0.0663,
+      "threshold": 0.35,
+      "rule_triggered": false,
+      "correct": true
+    }
+  ]
+}

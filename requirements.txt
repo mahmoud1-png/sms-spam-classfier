@@ -1,0 +1,17 @@
+# Core ML / data
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+nltk>=3.8
+
+# API
+flask>=3.0
+gunicorn>=21.0
+
+# Telegram bot
+python-telegram-bot>=20.7
+httpx>=0.27          # replaces requests — async-safe HTTP client for the bot
+
+# Training notebook only (not needed at runtime)
+matplotlib>=3.7
+seaborn>=0.13

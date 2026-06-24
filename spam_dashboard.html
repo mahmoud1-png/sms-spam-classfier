@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spam Classifier Dashboard</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:#0D1117; --card:#161B22; --card2:#1C2128; --border:#30363D;
+      --spam:#F85149; --ham:#3FB950; --accent:#7C3AED;
+      --text:#E6EDF3; --muted:#8B949E; --warn:#E3B341;
+    }
+    body { background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,sans-serif; font-size:14px; }
+    ::-webkit-scrollbar{width:6px;height:6px} ::-webkit-scrollbar-track{background:var(--card)} ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+    .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:20px; }
+    .sl { color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.12em; font-weight:600; margin-bottom:12px; }
+    .badge { display:inline-block; border-radius:4px; padding:2px 8px; font-size:11px; font-weight:700; font-family:'Courier New',monospace; }
+    .bs { background:#F8514922; color:#F85149; border:1px solid #F8514944; }
+    .bh { background:#3FB95022; color:#3FB950; border:1px solid #3FB95044; }
+
+    /* Load screen */
+    #load-screen { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; }
+    .load-inner { width:100%; max-width:520px; }
+    .cmd-block { background:#010409; border:1px solid var(--border); border-radius:8px; padding:12px 16px; font-family:'Courier New',monospace; font-size:12px; color:#58a6ff; margin-bottom:24px; overflow-x:auto; }
+    .drop-zone { border:2px dashed var(--border); border-radius:8px; padding:24px; text-align:center; cursor:pointer; margin-bottom:14px; transition:border-color .2s; }
+    .drop-zone:hover { border-color:var(--accent); }
+    textarea { width:100%; background:#010409; border:1px solid var(--border); border-radius:8px; padding:12px; color:var(--text); font-size:12px; font-family:'Courier New',monospace; resize:vertical; outline:none; }
+    .btn-primary { width:100%; margin-top:12px; background:var(--accent); color:#fff; border:none; border-radius:8px; padding:12px; font-size:14px; font-weight:600; cursor:pointer; }
+    .btn-primary:disabled { background:var(--border); color:var(--muted); cursor:default; }
+
+    /* Dashboard */
+    #dashboard { display:none; min-height:100vh; padding:24px; }
+    .dash-inner { max-width:1140px; margin:0 auto; }
+    .dash-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:24px; }
+    .btn-ghost { background:transparent; border:1px solid var(--border); color:var(--muted); border-radius:6px; padding:6px 14px; cursor:pointer; font-size:12px; }
+    .metric-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+    .metric-value { font-size:38px; font-weight:700; line-height:1; font-family:'Courier New',monospace; }
+    .metric-sub { color:var(--muted); font-size:11px; margin-top:8px; }
+    .two-col { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px; }
+    .cm-table { border-collapse:separate; border-spacing:4px; }
+    .cm-table th,.cm-table .rl { font-size:10px; color:var(--muted); font-weight:600; }
+    .cm-table th { padding:0 8px 8px; text-align:center; }
+    .cm-table .rl { text-align:right; padding-right:12px; white-space:nowrap; }
+    .cmc { border-radius:6px; padding:14px 16px; text-align:center; min-width:118px; }
+    .cmc-v { font-size:28px; font-weight:700; font-family:'Courier New',monospace; }
+    .cmc-l { font-size:10px; color:var(--muted); margin-top:4px; font-weight:600; }
+    .cmc-p { font-size:9px; color:var(--muted); margin-top:2px; }
+    .brow { margin-bottom:12px; }
+    .brow-meta { display:flex; justify-content:space-between; margin-bottom:4px; }
+    .brow-lbl { font-size:12px; color:var(--muted); }
+    .brow-val { font-size:12px; font-family:'Courier New',monospace; }
+    .bt { height:5px; background:var(--border); border-radius:3px; }
+    .bf { height:5px; border-radius:3px; }
+    .hist-sub { color:var(--muted); font-size:11px; margin-bottom:12px; }
+    .hist-legend { display:flex; gap:20px; justify-content:center; margin-top:8px; }
+    .li { display:flex; align-items:center; gap:6px; font-size:11px; color:var(--muted); }
+    .ld { width:10px; height:10px; border-radius:2px; display:inline-block; }
+    .filter-bar { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px; }
+    .fb { background:transparent; color:var(--muted); border:1px solid var(--border); border-radius:6px; padding:4px 11px; font-size:12px; cursor:pointer; }
+    .fb.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+    .si { flex:1; min-width:160px; background:var(--card2); border:1px solid var(--border); border-radius:6px; padding:4px 11px; font-size:12px; color:var(--text); outline:none; }
+    .bc { color:var(--muted); font-size:11px; margin-bottom:8px; }
+    .tw { border-radius:8px; overflow:hidden; border:1px solid var(--border); }
+    .mt { width:100%; border-collapse:collapse; font-size:12px; }
+    .mt th { background:var(--card2); padding:8px 12px; text-align:left; color:var(--muted); font-weight:600; font-size:10px; text-transform:uppercase; letter-spacing:.08em; border-bottom:1px solid var(--border); }
+    .mt td { padding:7px 12px; border-bottom:1px solid var(--border); }
+    .mt tr.wr { background:rgba(248,81,73,.03); }
+    .ci { color:var(--muted); font-family:'Courier New',monospace; }
+    .cp { font-family:'Courier New',monospace; }
+    .cp.hi { color:var(--spam); } .cp.lo { color:var(--ham); }
+    .ct { max-width:380px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .wi { color:var(--spam); margin-right:4px; }
+    .erow td { padding:24px; text-align:center; color:var(--muted); }
+    .pg { display:flex; justify-content:center; align-items:center; gap:8px; margin-top:12px; }
+    .pgb { background:transparent; border:1px solid var(--border); color:var(--muted); border-radius:6px; padding:4px 12px; font-size:12px; cursor:pointer; }
+    .pgb:disabled { opacity:.4; cursor:default; }
+    .pgi { color:var(--muted); font-size:12px; }
+    @media(max-width:768px){ .metric-grid{grid-template-columns:repeat(2,1fr)} .two-col{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+
+<div id="load-screen">
+  <div class="load-inner">
+    <div style="text-align:center;margin-bottom:28px">
+      <div style="font-size:44px;margin-bottom:10px">🔬</div>
+      <h1 style="font-size:24px;font-weight:700">Spam Classifier Dashboard</h1>
+      <p style="color:var(--muted);margin-top:8px;font-size:14px">Load test results to view accuracy metrics</p>
+    </div>
+    <div class="card" style="padding:28px">
+      <div class="sl">Step 1 — run the test script</div>
+      <div class="cmd-block"><span style="color:var(--muted)">$</span> python test_500_random.py</div>
+      <div class="sl">Step 2 — load the results JSON</div>
+      <div class="drop-zone" onclick="document.getElementById('fi').click()">
+        <div style="font-size:28px;margin-bottom:8px">📂</div>
+        <div style="color:var(--muted);font-size:14px">Click to upload <code style="color:var(--text)">results_random_*.json</code></div>
+        <div style="color:var(--muted);font-size:11px;margin-top:6px">Generated by test_500_random.py</div>
+      </div>
+      <input type="file" id="fi" accept=".json" style="display:none" onchange="handleFile(event)">
+      <div style="color:var(--muted);font-size:12px;text-align:center;margin-bottom:12px">— or paste JSON below —</div>
+      <textarea id="pa" rows="5" placeholder='{"results": [...], "metrics": {...}}' oninput="document.getElementById('pe').textContent='';updateBtn()"></textarea>
+      <div style="color:var(--spam);font-size:12px;margin-top:6px" id="pe"></div>
+      <button class="btn-primary" id="lb" onclick="loadPaste()" disabled>Load Results →</button>
+    </div>
+  </div>
+</div>
+
+<div id="dashboard">
+  <div class="dash-inner">
+    <div class="dash-header">
+      <div>
+        <div style="font-size:20px;font-weight:700">🔬 Spam Classifier · Test Report</div>
+        <div style="color:var(--muted);font-size:12px;margin-top:4px" id="dm"></div>
+      </div>
+      <button class="btn-ghost" onclick="reset()">↩ Load new file</button>
+    </div>
+    <div class="metric-grid" id="mg"></div>
+    <div class="two-col">
+      <div class="card" id="cc"></div>
+      <div class="card" id="bc"></div>
+    </div>
+    <div class="card" style="margin-bottom:16px" id="hc"></div>
+    <div class="card" id="brc"></div>
+  </div>
+</div>
+
+<script>
+var G={data:null,filter:'all',search:'',page:0};
+var PS=15;
+
+function handleFile(e){
+  var f=e.target.files[0];if(!f)return;
+  var r=new FileReader();r.onload=function(ev){tryLoad(ev.target.result)};r.readAsText(f);
+}
+function loadPaste(){tryLoad(document.getElementById('pa').value);}
+function tryLoad(text){
+  var pe=document.getElementById('pe');
+  try{
+    var j=JSON.parse(text);
+    if(!Array.isArray(j.results))throw new Error("Missing 'results' array.");
+    if(!j.metrics)throw new Error("Missing 'metrics' object.");
+    G.data=j;pe.textContent='';show(j);
+  }catch(e){pe.textContent='⚠ '+e.message;}
+}
+function updateBtn(){
+  document.getElementById('lb').disabled=!document.getElementById('pa').value.trim();
+}
+function reset(){
+  G={data:null,filter:'all',search:'',page:0};
+  document.getElementById('dashboard').style.display='none';
+  document.getElementById('load-screen').style.display='flex';
+  document.getElementById('pa').value='';
+  document.getElementById('pe').textContent='';
+  document.getElementById('fi').value='';
+  updateBtn();
+}
+function show(d){
+  document.getElementById('load-screen').style.display='none';
+  document.getElementById('dashboard').style.display='block';
+  render(d);
+}
+function pct(n,d){d=d||1;return(n*100).toFixed(d)+'%';}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function bdg(label,cls){return'<span class="badge '+cls+'">'+esc(label)+'</span>';}
+
+function render(d){
+  var m=d.metrics,total=m.total||d.results.length;
+  var meta=total+' messages · threshold '+(d.threshold||'—');
+  if(d.tested_at)meta+=' · '+new Date(d.tested_at).toLocaleString();
+  document.getElementById('dm').textContent=meta;
+  renderMetrics(m);renderConfusion(m);renderBreakdown(m);renderHist(d.results);
+  G.filter='all';G.search='';G.page=0;renderBrowser(d.results);
+}
+
+function renderMetrics(m){
+  var ac=m.accuracy>=0.95?'#3FB950':m.accuracy>=0.85?'#E3B341':'#F85149';
+  var cards=[
+    {l:'Accuracy', v:pct(m.accuracy), c:ac, s:(m.true_positives+m.true_negatives)+' of '+m.total+' correct'},
+    {l:'Precision',v:pct(m.precision),c:null,s:m.false_positives+' false alarms'},
+    {l:'Recall',   v:pct(m.recall),   c:null,s:m.false_negatives+' spam missed'},
+    {l:'F1 Score', v:pct(m.f1),       c:null,s:'Precision–Recall harmonic mean'},
+  ];
+  document.getElementById('mg').innerHTML=cards.map(function(c){
+    return'<div class="card" style="padding:22px 24px"><div class="sl">'+c.l+'</div>'
+      +'<div class="metric-value" style="color:'+(c.c||'#E6EDF3')+'">'+c.v+'</div>'
+      +'<div class="metric-sub">'+c.s+'</div></div>';
+  }).join('');
+}
+
+function renderConfusion(m){
+  var tp=m.true_positives,tn=m.true_negatives,fp=m.false_positives,fn=m.false_negatives;
+  var tot=tp+tn+fp+fn || 1;
+  function cell(v,lbl,sub,col,r){
+    return'<td class="cmc" style="background:'+col+'18;border:1px solid '+col+'44;border-radius:'+r+'">'
+      +'<div class="cmc-v" style="color:'+col+'">'+v+'</div>'
+      +'<div class="cmc-l">'+lbl+'</div>'
+      +'<div class="cmc-p">'+sub+' · '+pct(v/tot)+'</div></td>';
+  }
+  var H='#3FB950',S='#F85149';
+  document.getElementById('cc').innerHTML='<div class="sl">Confusion Matrix</div><div style="overflow-x:auto">'
+    +'<table class="cm-table"><thead><tr><td style="width:90px"></td>'
+    +'<th>Predicted SPAM</th><th>Predicted HAM</th></tr></thead><tbody>'
+    +'<tr><th class="rl">Actual SPAM</th>'+cell(tp,'True Positive','Caught',H,'8px 0 0 0')+cell(fn,'False Negative','Missed',S,'0 8px 0 0')+'</tr>'
+    +'<tr><th class="rl">Actual HAM</th>'+cell(fp,'False Positive','False alarm',S,'0 0 0 8px')+cell(tn,'True Negative','Passed',H,'0 0 8px 0')+'</tr>'
+    +'</tbody></table></div>';
+}
+
+function renderBreakdown(m){
+  var tp=m.true_positives,tn=m.true_negatives,fp=m.false_positives,fn=m.false_negatives;
+  var tot=tp+tn+fp+fn || 1;
+  var rows=[
+    {l:'Spam in dataset',      v:tp+fn,col:'#F85149'},
+    {l:'Ham in dataset',       v:tn+fp,col:'#3FB950'},
+    {l:'Predicted as spam',    v:tp+fp,col:'#F85149'},
+    {l:'Predicted as ham',     v:tn+fn,col:'#3FB950'},
+    {l:'Correctly classified', v:tp+tn,col:'#7C3AED'},
+    {l:'Misclassified',        v:fp+fn,col:'#E3B341'},
+  ];
+  document.getElementById('bc').innerHTML='<div class="sl">Class Breakdown</div>'
+    +rows.map(function(r){
+      return'<div class="brow"><div class="brow-meta"><span class="brow-lbl">'+r.l+'</span>'
+        +'<span class="brow-val">'+r.v+' <span style="color:var(--muted)">('+pct(r.v/tot)+')</span></span></div>'
+        +'<div class="bt"><div class="bf" style="width:'+(r.v/tot*100)+'%;background:'+r.col+'"></div></div></div>';
+    }).join('');
+}
+
+function renderHist(results){
+  var BINS=20;
+  var bins=[];for(var i=0;i<BINS;i++)bins.push({x:i*5,spam:0,ham:0});
+  results.forEach(function(r){
+    var b=Math.min(Math.floor(r.spam_probability*BINS),BINS-1);
+    if(r.true_label==='spam')bins[b].spam++;else bins[b].ham++;
+  });
+  var maxV=1;bins.forEach(function(b){if(b.spam+b.ham>maxV)maxV=b.spam+b.ham;});
+  var W=740,H=180,PL=32,PR=10,PT=10,PB=28;
+  var cW=W-PL-PR,cH=H-PT-PB,bottom=PT+cH;
+  var bW=cW/BINS;
+
+  var yticks='';
+  [0,.25,.5,.75,1].forEach(function(f){
+    var v=Math.round(maxV*f),y=bottom-(v/maxV)*cH;
+    yticks+='<line x1="'+(PL-4)+'" y1="'+y+'" x2="'+(PL+cW)+'" y2="'+y+'" stroke="#30363D" stroke-width="1"/>'
+      +'<text x="'+(PL-6)+'" y="'+(y+4)+'" text-anchor="end" fill="#8B949E" font-size="9">'+v+'</text>';
+  });
+
+  var bars='';
+  bins.forEach(function(b,i){
+    var hamH=(b.ham/maxV)*cH,spamH=(b.spam/maxV)*cH;
+    var x=PL+i*bW+1,w=Math.max(bW-2,1);
+    var tip=b.x+'%–'+(b.x+5)+'%: '+b.spam+' spam, '+b.ham+' ham';
+    if(b.ham>0) bars+='<rect x="'+x+'" y="'+(bottom-hamH)+'" width="'+w+'" height="'+hamH+'" fill="#3FB950" rx="1"><title>'+tip+'</title></rect>';
+    if(b.spam>0)bars+='<rect x="'+x+'" y="'+(bottom-hamH-spamH)+'" width="'+w+'" height="'+spamH+'" fill="#F85149" rx="1"><title>'+tip+'</title></rect>';
+  });
+
+  var xlabels='';
+  for(var i=0;i<BINS;i+=4){
+    var x=PL+(i/BINS)*cW;
+    xlabels+='<text x="'+x+'" y="'+(bottom+18)+'" text-anchor="middle" fill="#8B949E" font-size="9">'+(i*5)+'%</text>';
+  }
+
+  document.getElementById('hc').innerHTML='<div class="sl">Probability Distribution</div>'
+    +'<div class="hist-sub">Each bar = 5% probability bucket · stacked by true label · hover a bar to see counts</div>'
+    +'<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:'+H+'px;overflow:visible">'
+    +yticks
+    +'<line x1="'+PL+'" y1="'+PT+'" x2="'+PL+'" y2="'+bottom+'" stroke="#30363D" stroke-width="1"/>'
+    +'<line x1="'+PL+'" y1="'+bottom+'" x2="'+(PL+cW)+'" y2="'+bottom+'" stroke="#30363D" stroke-width="1"/>'
+    +bars+xlabels+'</svg>'
+    +'<div class="hist-legend">'
+    +'<div class="li"><span class="ld" style="background:#F85149"></span>True spam</div>'
+    +'<div class="li"><span class="ld" style="background:#3FB950"></span>True ham</div>'
+    +'</div>';
+}
+
+var FTABS=[
+  {id:'all',l:'All'},{id:'correct',l:'✓ Correct'},{id:'wrong',l:'✗ Wrong'},
+  {id:'fp',l:'False Positives'},{id:'fn',l:'False Negatives'},
+  {id:'spam',l:'Spam'},{id:'ham',l:'Ham'}
+];
+
+function applyFilter(results,fid,q){
+  var r=results;
+  if     (fid==='correct')r=r.filter(function(x){return x.correct;});
+  else if(fid==='wrong')  r=r.filter(function(x){return!x.correct;});
+  else if(fid==='fp')     r=r.filter(function(x){return x.true_label==='ham'  &&x.predicted_label==='SPAM';});
+  else if(fid==='fn')     r=r.filter(function(x){return x.true_label==='spam' &&x.predicted_label==='HAM';});
+  else if(fid==='spam')   r=r.filter(function(x){return x.true_label==='spam';});
+  else if(fid==='ham')    r=r.filter(function(x){return x.true_label==='ham';});
+  if(q.trim()){var lq=q.trim().toLowerCase();r=r.filter(function(x){return x.text.toLowerCase().includes(lq);});}
+  return r;
+}
+
+function renderBrowser(results){
+  var filtered=applyFilter(results,G.filter,G.search);
+  var pages=Math.ceil(filtered.length/PS)||1;
+  G.page=Math.min(G.page,pages-1);
+  var visible=filtered.slice(G.page*PS,(G.page+1)*PS);
+
+  var fbtns=FTABS.map(function(f){
+    return'<button class="fb'+(G.filter===f.id?' active':'')+'" onclick="sf(\''+f.id+'\')">'+f.l+'</button>';
+  }).join('');
+
+  var rows=visible.length===0
+    ?'<tr class="erow"><td colspan="6">No messages match</td></tr>'
+    :visible.map(function(r){
+      var wc=r.correct?'':'wr';
+      var pc=r.spam_probability>0.5?'hi':'lo';
+      var wi=r.correct?'':'<span class="wi">⚠</span>';
+      var ri=r.rule_triggered?'⚡':'·';
+      var rc=r.rule_triggered?'#E3B341':'#8B949E';
+      return'<tr class="'+wc+'"><td class="ci">'+((r.index||0)+1)+'</td>'
+        +'<td>'+bdg(r.true_label.toUpperCase(),r.true_label==='spam'?'bs':'bh')+'</td>'
+        +'<td>'+bdg(r.predicted_label,r.predicted_label==='SPAM'?'bs':'bh')+'</td>'
+        +'<td class="cp '+pc+'">'+pct(r.spam_probability)+'</td>'
+        +'<td style="text-align:center;color:'+rc+'">'+ri+'</td>'
+        +'<td class="ct" title="'+esc(r.text)+'">'+wi+esc(r.text)+'</td></tr>';
+    }).join('');
+
+  var pg=pages>1?'<div class="pg">'
+    +'<button class="pgb" onclick="cp(-1)"'+(G.page===0?' disabled':'')+'>← Prev</button>'
+    +'<span class="pgi">Page '+(G.page+1)+' / '+pages+'</span>'
+    +'<button class="pgb" onclick="cp(1)"'+(G.page>=pages-1?' disabled':'')+'>Next →</button></div>':'';
+
+  document.getElementById('brc').innerHTML='<div class="sl">Message Browser</div>'
+    +'<div class="filter-bar">'+fbtns
+    +'<input class="si" type="text" placeholder="Search messages…" value="'+esc(G.search)+'" oninput="ss(this.value)"></div>'
+    +'<div class="bc">'+filtered.length+' of '+results.length+' messages shown</div>'
+    +'<div class="tw"><table class="mt"><thead><tr>'
+    +'<th>#</th><th>True</th><th>Predicted</th><th>Prob</th><th>Rule</th><th>Message text</th>'
+    +'</tr></thead><tbody>'+rows+'</tbody></table></div>'+pg;
+}
+
+function sf(fid){G.filter=fid;G.page=0;renderBrowser(G.data.results);}
+function ss(v){G.search=v;G.page=0;renderBrowser(G.data.results);}
+function cp(d){
+  var f=applyFilter(G.data.results,G.filter,G.search);
+  var pages=Math.ceil(f.length/PS)||1;
+  G.page=Math.max(0,Math.min(pages-1,G.page+d));
+  renderBrowser(G.data.results);
+}
+</script>
+</body>
+</html>

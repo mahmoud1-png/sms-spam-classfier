@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter artefacts
+.ipynb_checkpoints/
+*.ipynb
+
+# Training data (large, not needed at runtime)
+spam.csv
+
+# Build artefacts / plots
+*.png
+*.jpg
+
+# make_df.pkl is a helper pickle; only spam_model.pkl is needed at runtime
+make_df.pkl
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Secrets — never include the bot token in the Docker build context
+.env
+*.env
