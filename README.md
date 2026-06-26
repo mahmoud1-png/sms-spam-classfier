@@ -34,7 +34,7 @@ A machine learning system that detects spam SMS messages in real time. Built wit
 | NLP      | NLTK (tokenization, lemmatization, stopwords) |
 | API      | Flask, Gunicorn                               |
 | Bot      | python-telegram-bot, httpx                    |
-| Frontend | React, Recharts                               |
+| Frontend | HTML                                          |
 | DevOps   | Docker                                        |
 
 ---
