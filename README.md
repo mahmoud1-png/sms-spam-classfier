@@ -119,46 +119,56 @@ Classify up to 500 messages at once.
 
 ---
 
-## 🐳 Run with Docker
+## 🐳 Running with Docker
 
-### ✅ Recommended — Docker Compose (handles everything automatically)
+### ✅ Option 1 — Docker Compose (Recommended)
 
-1. Train the model with the notebook to produce `spam_model.pkl`
-2. Copy `spam_model.pkl` into the project root
-3. Create a `.env` file with your Telegram bot token:
-   ```
-   BOT_TOKEN=7123456789:AAFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-   ```
-4. Start both services:
-   ```bash
-   docker compose up --build
-   ```
+The easiest way to run both the API and Telegram Bot together.
 
-The API will be available at `http://localhost:5000` and the bot will start polling automatically.
+**1. Make sure you have `spam_model.pkl` in the project root**
+(train it using the notebook first)
+
+**2. Create a `.env` file in the project root:**
+```
+BOT_TOKEN=your_telegram_bot_token_here
+```
+> Get a token from [@BotFather](https://t.me/botfather) on Telegram.
+
+**3. Start everything:**
+```bash
+docker compose up --build
+```
+
+The API will be available at `http://localhost:5000` and the bot will start automatically.
 
 ---
 
-### 🔧 Manual Docker (API only)
+### 🔧 Option 2 — Manual Docker (Advanced)
 
-**Linux / macOS:**
+If you prefer to run containers individually:
+
 ```bash
+# 1. Build the image
 docker build -t spam-classifier .
-docker run -p 5000:5000 -v "$(pwd)/spam_model.pkl:/app/spam_model.pkl" spam-classifier
+
+# 2. Create a shared network so the bot can reach the API
+docker network create spam-net
+
+# 3. Run the API
+docker run -p 5000:5000 \
+           --network spam-net \
+           --name spam-api \
+           -v "$(pwd)/spam_model.pkl:/app/spam_model.pkl" \
+           spam-classifier
+
+# 4. Run the Telegram Bot
+docker run --network spam-net \
+           -e BOT_TOKEN=your_telegram_bot_token_here \
+           -e API_URL=http://spam-api:5000 \
+           spam-classifier python telegram_bot.py
 ```
 
-**Windows (Command Prompt):**
-```cmd
-docker build -t spam-classifier .
-docker run -p 5000:5000 -v "%cd%\spam_model.pkl:/app/spam_model.pkl" spam-classifier
-```
-
-**Windows (PowerShell):**
-```powershell
-docker build -t spam-classifier .
-docker run -p 5000:5000 -v "${PWD}\spam_model.pkl:/app/spam_model.pkl" spam-classifier
-```
-
-> ⚠️ `$(pwd)` is a Linux/macOS shell expansion and does **not** work on Windows. Use `%cd%` in CMD or `${PWD}` in PowerShell instead.
+> ⚠️ **Windows users:** replace `$(pwd)` with `%cd%` in CMD or `${PWD}` in PowerShell.
 
 ---
 
